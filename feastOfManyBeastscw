@@ -1,0 +1,7 @@
+function feast(beast, dish) {
+  const first = beast[0] === dish[0]
+  const last = beast[beast.length - 1] === dish[dish.length - 1]
+  
+  return first && last
+  }
+
