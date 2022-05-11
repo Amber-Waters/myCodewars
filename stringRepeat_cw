@@ -1,0 +1,8 @@
+function repeatStr (n, s) {
+  if (n > 0){
+    return s.repeat([n]);
+}else if (n <= 0){
+  return '';
+}
+  }
+repeatStr(3,'*');
