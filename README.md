@@ -1,1 +1,1 @@
-# myCodewars
+# myCodewarsSolutions
