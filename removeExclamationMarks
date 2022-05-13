@@ -1,0 +1,4 @@
+function removeExclamationMarks(s) {
+//   newStr = s.replace('!','')    //not sure why this didn't work and had to use regex
+  return s.replace(/!/g, '');
+}
