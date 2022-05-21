@@ -1,0 +1,5 @@
+function litres(time) {
+  prod = time*.5
+  return Math.floor(prod)
+}
+console.log(litres(3))
