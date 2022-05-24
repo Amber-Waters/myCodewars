@@ -1,0 +1,8 @@
+function abbrevName(name){
+return name.split(' ').map((char) => char[0].toUpperCase()).join('.');
+  
+
+}
+
+console.log(abbrevName('Amber Waters'))
+console.log(abbrevName('George Jorge'))
