@@ -1,0 +1,7 @@
+function isTriangle(a,b,c){
+ let max = Math.max(a,b,c)
+ sum = a + b + c;
+  return sum - max > max
+  }
+console.log(isTriangle(2,2,5))
+console.log(isTriangle(1,2,19))
