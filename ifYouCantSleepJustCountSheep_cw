@@ -1,0 +1,24 @@
+// var countSheep = function (n){
+ function countSheep(n) { 
+   if (n <= 0){
+     return '';
+   }
+  while (n > 0){
+    let text = ''
+    for (i = 1; i <= n; i++){
+    text += i.toString() + ' sheep...'
+  }
+    return text;
+  }
+}
+console.log(countSheep(0))
+
+
+
+
+
+
+
+
+
+//this took me all day 
