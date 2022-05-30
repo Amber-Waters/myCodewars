@@ -1,0 +1,10 @@
+// function correct(string){
+//   for (i = 0; i <= string.length; i++){
+//     return string.replace('5','S').replace('0','O').replace('1','I');
+//   }
+// }
+// console.log(correct('501'))
+
+const correct = (string) => string.replace(/0/g, 'O')
+  .replace(/5/g, 'S')
+  .replace(/1/g, 'I');
