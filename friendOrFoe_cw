@@ -1,0 +1,4 @@
+function friend(friends){
+  return friends.filter(friends => friends.length === 4)
+}
+console.log(friend(['Mark','Clyde',"Dale"]))
