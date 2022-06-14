@@ -1,0 +1,5 @@
+function unusualFive() {
+  let five = 'farty'
+  return five.length
+  }
+console.log(unusualFive('two'))
