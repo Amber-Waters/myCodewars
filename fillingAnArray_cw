@@ -1,0 +1,3 @@
+const arr = N => Array.from({length: N},(_, index) => index);
+
+console.log(arr(7))
