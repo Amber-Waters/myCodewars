@@ -1,0 +1,8 @@
+function mouthSize(animal) {
+  animal.toString('').toLowerCase()
+  if (animal === 'alligator'){
+    return 'small';
+  }else if (animal !== 'alligator'){
+    return 'wide';
+  }
+}
