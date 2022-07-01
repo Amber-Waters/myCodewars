@@ -1,0 +1,5 @@
+function strCount(str, letter){  
+  return str.split(letter).length-1
+}
+console.log(strCount('hyperactive','e'))
+console.log(strCount('secure the bag','a'))
