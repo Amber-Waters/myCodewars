@@ -1,0 +1,16 @@
+function howMuchILoveYou(nbPetals) {
+    const tellMe = [
+      'I love you',
+      'a little',
+      'a lot',
+      'passionately',
+      'madly',
+      'not at all'
+    ]
+    for (i = 0; i <= nbPetals - 1; i++){
+      if (i === nbPetals - 1){
+        return tellMe[i % 6]
+      }
+    }
+}
+
