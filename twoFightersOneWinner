@@ -1,0 +1,5 @@
+function declareWinner(fighter1, fighter2, firstAttacker) {
+  let particleMan = Math.ceil(fighter1.health/fighter2.damagePerAttack)
+  let triangleMan = Math.ceil(fighter2.health/fighter1.damagePerAttack)
+  return particleMan < triangleMan ? fighter2.name : triangleMan < particleMan ? fighter1.name : firstAttacker 
+}
