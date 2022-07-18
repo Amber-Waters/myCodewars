@@ -1,0 +1,5 @@
+function removeSmallest(numbers) {
+  let theSmallestOfAllest = numbers.indexOf(Math.min(...numbers))
+  return [...numbers.slice(0, theSmallestOfAllest), ...numbers.slice(theSmallestOfAllest + 1)]
+}
+
