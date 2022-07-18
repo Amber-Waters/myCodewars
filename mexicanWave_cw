@@ -1,0 +1,11 @@
+function wave(str){
+  let array = []
+  str.split('').forEach(function(letter, i) {
+    let strArray = str.split('')
+    if (/[a-z]/.test(letter)) {
+      strArray[i] = strArray[i].toUpperCase()
+      array.push(strArray.join(''))
+    }
+  })
+  return array
+}
