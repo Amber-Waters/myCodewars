@@ -1,0 +1,6 @@
+function solve(s){
+    let upperCaseMatch = s.split('').filter(x=>x.match(/[A-Z]/)).length
+    let lowerCaseMatch = s.split('').filter(x=>x.match(/[a-z]/)).length
+    return lowerCaseMatch >= upperCaseMatch ? s.toLowerCase() : s.toUpperCase();
+}
+
