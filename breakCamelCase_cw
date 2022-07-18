@@ -1,0 +1,4 @@
+function solution(string) {
+    return string.split(/([A-Z][a-z]+)/).filter(function(e){return e}).join(' ')
+}
+
