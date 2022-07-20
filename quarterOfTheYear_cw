@@ -1,0 +1,4 @@
+const quarterOf = (month) => {
+  return Math.ceil(month/3)                   //formula: Math.ceil(monthNumber/12/numberOfSegments)
+}
+console.log(quarterOf(8))
