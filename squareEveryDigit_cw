@@ -1,0 +1,5 @@
+function squareDigits(num){
+  let nums = num.toString().split('').map(Number)
+  nums.forEach((e,i) => nums[i] = e * e)
+  return Number(nums.join(''))
+}
