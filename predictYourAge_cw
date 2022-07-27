@@ -1,0 +1,13 @@
+function predictAge(...ages){
+  let yourAge = 0
+  for (i in ages){
+    yourAge += ages[i]**2
+  }
+  return Math.sqrt(yourAge)/2 | 0
+}
+  
+  
+  
+  
+  
+  
