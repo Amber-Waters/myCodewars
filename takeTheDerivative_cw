@@ -1,0 +1,5 @@
+function derive(coefficient,exponent) {
+  let prod = coefficient * exponent
+  let power = exponent - 1
+  return `${prod}x^${power}`
+}
