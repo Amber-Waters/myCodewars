@@ -1,0 +1,13 @@
+function dataReverse(data) {
+  if (data.length === 0){
+    return []
+  }
+  let newArr = []
+  let segments = data.length/8
+  for (i=0; i < segments; i++){
+    newArr.push(data.splice(0,8))
+  }
+  return newArr.reverse().join().split(',').map(x=>x*1)
+}
+
+
